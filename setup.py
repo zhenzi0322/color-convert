@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 package = {
     "name": "color-convert",
-    "version": "2.7",
+    "version": "1.0",
     "description": "Color Conversion",
     "keywords": [
         "color",
@@ -16,7 +16,7 @@ package = {
     }
 }
 
-with open("README.md", encoding="utf-8") as data:
+with open("README.rst", encoding="utf-8") as data:
     long_description = data.read()
 
 setup(
@@ -25,7 +25,6 @@ setup(
     url=package["homepage"],
     description=package["description"],
     long_description=long_description,
-    long_description_content_type="text/markdown",
     license='MIT License',
     author=package["author"]["name"],
     author_email=package["author"]["email"],
