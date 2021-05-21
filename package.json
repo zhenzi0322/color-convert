@@ -1,0 +1,15 @@
+{
+  "name": "color-convert",
+  "version": "2.4",
+  "description": "Color Conversion",
+  "keywords": [
+    "color",
+    "color-convert",
+    "convert"
+  ],
+  "homepage": "https://github.com/zhenzi0322/color-convert",
+  "author": {
+    "name": "Yu Zhen",
+    "email": "82131529@qq.com"
+  }
+}
