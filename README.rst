@@ -1,6 +1,11 @@
 Color Conversion Tool
 =====================
 
+Installation
+
+.. code:: cmd
+    pip install color-convert
+
 Hexadecimal to rgb
 
 .. code:: python
