@@ -3,7 +3,8 @@ Color Conversion Tool
 
 Installation
 
-.. code:: cmd
+.. code:: python
+
     pip install color-convert
 
 Hexadecimal to rgb
