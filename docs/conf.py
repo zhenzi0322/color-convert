@@ -20,12 +20,16 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('../../color_convert'))  # 指向src目录
+sys.path.insert(
+    0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'color-convert')
+)
+
 project = 'color_convert'
 copyright = '2021, long'
 author = 'long'
 
 # The full version, including alpha/beta/rc tags
+# sphinx-apidoc -o source ../color_convert/
 release = '1.2'
 
 # -- General configuration ---------------------------------------------------
