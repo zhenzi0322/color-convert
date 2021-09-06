@@ -1,3 +1,5 @@
+#coding=UTF-8
+
 def hex_to_rgb(hex):
     """
     功能：16进制颜色格式颜色转换为RGB格式
@@ -51,3 +53,13 @@ def ten_to_rgb(num):
         return hex_to_rgba(str1)
     except Exception as e:
         raise Exception(e)
+
+
+def my_function(a, b):
+    """函数功能说明
+     >>> my_function(2, 3)
+     6
+     >>> my_function('a', 3)
+     'aaa'
+    """
+    return a * b
