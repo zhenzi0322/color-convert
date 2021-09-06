@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 import os
 import sys
-sys.path.insert(0, os.path.abspath('./../../color_convert'))
+sys.path.insert(0, os.path.abspath('../../../color_convert'))
 project = 'color-convert'
 copyright = '2021, long'
 author = 'long'
@@ -38,7 +38,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.mathjax'
+    'sphinx.ext.mathjax',
+    'sphinx.ext.napoleon'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
