@@ -43,4 +43,4 @@ Decimal to rgb
     hex_rgb = color.ten_to_rgb(16711680)
     print(hex_rgb)  # rgba(255,0,0,1)
 
-.. 文档地址: https://color-convert.readthedocs.io/zh_CN/latest/index.html
+.. _文档地址: https://color-convert.readthedocs.io/zh_CN/latest/index.html
