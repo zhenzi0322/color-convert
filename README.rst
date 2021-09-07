@@ -45,4 +45,4 @@ Decimal to rgb
 
 文档地址
 
-.. _文档地址: https://color-convert.readthedocs.io/zh_CN/latest/index.html
+请参考 `color_convert <https://color-convert.readthedocs.io/zh_CN/latest/index.html>`_。
