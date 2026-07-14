@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 package = {
     "name": "color-convert",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Color Conversion",
     "keywords": [
         "color",
@@ -11,7 +11,7 @@ package = {
     ],
     "homepage": "https://github.com/zhenzi0322/color-convert",
     "author": {
-        "name": "Yu Zhen",
+        "name": "zhenzi0322",
         "email": "82131529@qq.com"
     }
 }

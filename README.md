@@ -177,10 +177,6 @@ print(rgb)  # rgb(255, 240, 0)
 | `rgb_to_cmyk(r, g, b)` | RGB → CMYK | `r, g, b`: 0-255 | `cmyk(0%, 6%, 100%, 0%)` |
 | `cmyk_to_rgb(c, m, y, k)` | CMYK → RGB | `c, m, y, k`: 0-100 | `rgb(255, 240, 0)` |
 
-## 文档
-
-更多详情请参考 [color_convert 文档](https://color-convert.readthedocs.io/zh_CN/latest/index.html)。
-
 ## License
 
 [MIT License](LICENSE)
