@@ -16,7 +16,7 @@ package = {
     }
 }
 
-with open("README.rst", encoding="utf-8") as data:
+with open("README.md", encoding="utf-8") as data:
     long_description = data.read()
 
 setup(
@@ -25,6 +25,7 @@ setup(
     url=package["homepage"],
     description=package["description"],
     long_description=long_description,
+    long_description_content_type='text/markdown',
     license='MIT License',
     author=package["author"]["name"],
     author_email=package["author"]["email"],
