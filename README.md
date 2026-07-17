@@ -6,7 +6,7 @@
   <a href="https://pypi.org/project/color-convert/"><img src="https://img.shields.io/pypi/v/color-convert.svg" alt="PyPI version"></a>
   <a href="https://pypi.org/project/color-convert/"><img src="https://img.shields.io/pypi/pyversions/color-convert.svg" alt="Python"></a>
   <a href="https://github.com/zhenzi0322/color-convert/blob/main/LICENSE"><img src="https://img.shields.io/pypi/l/color-convert.svg" alt="License"></a>
-  <a href="https://zhenzi0322.readthedocs.io/zh-cn/latest/color-convert/"><img src="https://readthedocs.org/projects/zhenzi0322/badge/?version=latest" alt="Documentation Status"></a>
+  <a href="https://zhenzi0322.readthedocs.io/zh-cn/latest/color-convert/"><img src="https://app.readthedocs.org/projects/zhenzi0322-tool/badge/?version=latest" alt="Documentation Status"></a>
 </p>
 
 ## 安装
