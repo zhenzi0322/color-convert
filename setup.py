@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 package = {
     "name": "color-convert",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Color Conversion",
     "keywords": [
         "color",
