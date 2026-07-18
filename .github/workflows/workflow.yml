@@ -5,14 +5,17 @@ on:
     tags:
       - "v*"
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   build-and-publish:
     name: Build and publish to PyPI
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: read
-      id-token: write
+
+    environment:
+      name: pypi
     
     steps:
       - name: Checkout code
@@ -30,18 +33,7 @@ jobs:
       
       - name: Build package
         run: python -m build
-    
-  publish-pypi:
-    needs: build-wheels
-    runs-on: ubuntu-latest
-
-    environment:
-      name: pypi
-
-    permissions:
-      id-token: write
-
-    steps:
+      
       - name: Download all wheels
         uses: actions/download-artifact@v4
         with:
@@ -52,7 +44,7 @@ jobs:
         run: |
           mkdir -p dist
           find artifacts -name "*.whl" -exec cp {} dist/ \;
-
+      
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
